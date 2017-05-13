@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+$sun: green;
+$goblin: red;
+$poop: blue;
+$sniper: orange;
+
+
+.background {
+    background-color: $goblin;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.nick {
+  color: $goblin;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.celey{
+  background-color: $poop;
+  color: $sun;
+}
+
+.test{
+  background-color: $sniper;
+  color: $sniper;
+}
